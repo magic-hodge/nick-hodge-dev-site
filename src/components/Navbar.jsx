@@ -10,6 +10,8 @@ const Nav = styled.nav`
     background-color: #112d4e;
     height: 80px;
     font-size: 1.2rem;
+	font-family: 'Josefin Sans', sans-serif;
+
 
     .nav-menu {
         display: grid;
@@ -27,6 +29,7 @@ const Nav = styled.nav`
         justify-self: start;
         margin-left: 20px;
         cursor: pointer;
+        letter-spacing: 2px;
     }
 
     .fa-react {
@@ -49,6 +52,7 @@ const Nav = styled.nav`
         color: #f9f7f7;
         text-decoration: none;
         padding: 0.5rem 1rem;
+        letter-spacing: 1px;
     }
 
     .nav-links:hover {
@@ -73,10 +77,9 @@ const Nav = styled.nav`
         .nav-menu {
             display: flex;
             flex-direction: column;
-            width: 100%
             height: 500px;
             position: absolute;
-            top: 80px;
+            top: 78px;
             left: -100%;
             opacity: 1;
             transition: all 0.5s ease;
@@ -107,15 +110,15 @@ const Nav = styled.nav`
             position: absolute;
             top: 0;
             left: 0;
-            transform: translate(25%, 50%);
+            transform: translate(0%, 70%);
         }
 
         .menu-icon {
             display: block;
             position: absolute;
             top: 0;
-            right: 0;
-            transform: translate(-100%, 60%);
+            right: 20px;
+            transform: translate(-100%, 70%);
             font-size: 1.8rem;
             cursor: pointer;
         }
