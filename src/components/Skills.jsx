@@ -51,7 +51,8 @@ const SkillBox = styled.div`
         height: 150px;
         width: 150px;
         border-radius: 50%;
-        margin: 25px auto;
+        margin: 0 auto;
+        margin-top: 50px;
     }
 
     .tech-icons {
@@ -199,17 +200,17 @@ function Skills() {
                 My Skills.
             </h3>
             <div className="tech-icons">
-                <i class="fab fa-bootstrap"></i>
+                <i className="fab fa-bootstrap"></i>
                 <i className="fab fa-css3-alt"></i>
                 <i className="fab fa-github"></i>
                 <i className="fab fa-html5"></i>
                 <i className="fab fa-js"></i>
                 <i className="fab fa-node"></i>
                 <i className="fab fa-npm"></i>
-                <i class="fab fa-python"></i>
+                <i className="fab fa-python"></i>
                 <i className="fab fa-react"></i>
-                <i class="fas fa-database"></i>
-                <i class="fab fa-squarespace"></i>
+                <i className="fas fa-database"></i>
+                <i className="fab fa-squarespace"></i>
                 <i className="fab fa-wordpress-simple"></i>
             </div>
             <div className='dev-skills skill-box'>
@@ -220,14 +221,13 @@ function Skills() {
                     I started learning web development to build an online coaching website. I quickly fell in love with the depth of the field and gained expereience designing responsive, front-end web applications. I offer skills in the following areas: HTML5, CSS3/SASS, Javascript/ES6, React.js, Node.js, NPM, REST APIs, Git, SQL, MongoDB, and more!
                 </p>
             </div>
+            <img
+                className="img-icon"
+                id="headSupport"
+                src={require("../images/cyr_headSupport2.jpg")}
+                alt="cyr_headSupport.jpg"
+            />
             <div className="misc-skills skill-box">
-                
-                <img
-                    class="img-icon"
-                    id="headSupport"
-                    src={require("../images/cyr_headSupport2.jpg")}
-                    alt="cyr_headSupport.jpg"
-                />
                 <h4>
                     Cyr Wheel.
                 </h4>
