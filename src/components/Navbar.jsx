@@ -2,6 +2,7 @@ import React from 'react';
 import {MenuItems} from './MenuItems';
 import styled from 'styled-components';
 import Toggle from './Toggle';
+import { Link } from 'react-router-dom';
 
 const Nav = styled.nav`
     display: flex;
@@ -54,6 +55,11 @@ const Nav = styled.nav`
 
     }
 
+    .logo-link {
+        color: #f9f7f7;
+        text-decoration: none;
+    }
+
     .nav-links:hover {
         background-color: #3f72af;
         border-radius: 5px;
@@ -104,6 +110,10 @@ const Nav = styled.nav`
             border-radius: 0;
         }
 
+        .active {
+            color: #3f72af;
+        }
+
         .navbar-logo {
             position: absolute;
             top: 0;
@@ -135,7 +145,7 @@ function Navbar() {
 
     return(
        <Nav className="NavbarItems">
-           <h1 className="navbar-logo">Nick Hodge</h1>
+           <h1 className="navbar-logo"><Link className="logo-link" to="/">Nick Hodge</Link></h1>
            <div className="menu-icon" onClick={switchToggle}>
                <i className={isToggled ? "fas fa-times" : "fas fa-bars"}></i>
            </div>
@@ -143,11 +153,11 @@ function Navbar() {
                {MenuItems.map((item, index) => {
                     return(
                         <li key={index}>
-                            <a
+                            <Link
                             className={item.cName}
-                            href={item.url}>
+                            to={item.url}>
                                 {item.title}
-                            </a>
+                            </Link>
                         </li>
                     );
                })}
