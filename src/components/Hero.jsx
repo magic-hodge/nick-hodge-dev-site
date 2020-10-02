@@ -36,7 +36,7 @@ const Main = styled.div`
 function Hero() {
     return (
         <Main>
-            <img src={require("../images/headshot_cropped.jpg")}></img>
+            <img src={require("../images/headshot_cropped.jpg")}/>
             <h1>I'm Nick.</h1>
             <h2>a developer.</h2>
         </Main>
