@@ -4,6 +4,40 @@
   padding: 0;
 }
 
+.home-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f9f7f7;
+  color: #112d4e;
+}
+
+.home-main h3 {
+    margin: 20px auto;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+}
+
+.home-main h4 {
+    margin: 20px auto;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.35rem;
+}
+
+.home-main p {
+  margin: 0 auto;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.25rem;
+  padding-bottom: 15px;
+}
+
+.home-main hr {
+  border: dotted 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 50px auto;
+}
+
 /* color codes...
 
   #f9f7f7

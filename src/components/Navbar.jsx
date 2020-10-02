@@ -32,11 +32,6 @@ const Nav = styled.nav`
         letter-spacing: 2px;
     }
 
-    .fa-react {
-        margin-left: 0.5rem;
-        font-size: 1.6rem;
-    }
-
     .nav-menu {
         display: grid;
         grid-template-columns: repeat(5, auto);
@@ -51,14 +46,17 @@ const Nav = styled.nav`
     .nav-links {
         color: #f9f7f7;
         text-decoration: none;
-        padding: 0.5rem 1rem;
+        ${'' /* padding: 0.5rem 1rem; */}
+        justify-content: space-around;
+        padding: 10px 20px;
         letter-spacing: 1px;
+        transition: 0.3s ease;
+
     }
 
     .nav-links:hover {
         background-color: #3f72af;
         border-radius: 5px;
-        transition: all 0.25s ease-out;
     }
 
     .fa-bars {
@@ -79,7 +77,7 @@ const Nav = styled.nav`
             flex-direction: column;
             height: 500px;
             position: absolute;
-            top: 78px;
+            top: 80px;
             left: -100%;
             opacity: 1;
             transition: all 0.5s ease;

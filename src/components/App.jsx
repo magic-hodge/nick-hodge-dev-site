@@ -3,6 +3,8 @@ import Navbar from './Navbar';
 import Hero from './Hero';
 import Intro from './Intro';
 import Skills from './Skills';
+import GetInTouch from './GetInTouch';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <Hero/>
       <Intro/>
       <Skills/>
+      <GetInTouch/>
+      <Footer/>
     </div>
   );
 }

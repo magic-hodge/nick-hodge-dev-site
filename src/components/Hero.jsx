@@ -13,7 +13,7 @@ const Main = styled.div`
 
     h1 {
         margin: 0 auto;
-        margin-top: 10px;
+        margin-top: 15px;
         font-size: 5rem;
     }
 
@@ -36,7 +36,7 @@ const Main = styled.div`
 function Hero() {
     return (
         <Main>
-            <img src={require("../images/headshot_cropped.jpg")}/>
+            <img src={require("../images/headshot_cropped.jpg")} alt='headshot_cropped.jpg'/>
             <h1>I'm Nick.</h1>
             <h2>a developer.</h2>
         </Main>

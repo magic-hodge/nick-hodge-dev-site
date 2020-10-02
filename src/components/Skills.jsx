@@ -2,24 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 
 const SkillBox = styled.div`
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #f9f7f7;
-    color: #112d4e;
-
-    h3 {
-        margin: 20px auto;
-        font-family: 'Josefin Sans', sans-serif;
-        font-size: 2rem;
-    }
-
-    h4 {
-        margin: 20px auto;
-        font-family: 'Roboto Slab', serif;
-        font-size: 1.35rem;
-        
-    }
 
     p {
         margin: 0 auto;
@@ -195,7 +177,7 @@ const SkillBox = styled.div`
 
 function Skills() {
     return (
-        <SkillBox>
+        <SkillBox className="home-main">
             <h3>
                 My Skills.
             </h3>
