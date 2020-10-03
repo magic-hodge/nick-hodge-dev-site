@@ -12,7 +12,6 @@ const About = styled.div`
 
 h3, p {
     width: 70%;
-    margin: 
 }
 
 hr {
@@ -29,6 +28,28 @@ img {
     border-radius: 50%;
 }
 
+@media screen and (max-width:768px) {
+    .about-box {
+        flex-direction: column;
+    }
+
+    h3, p {
+        width: 75%;
+    }
+
+    hr {
+        width: 10%;
+        margin: 25px auto;
+    }
+
+    img {
+        height: 300px;
+        width: 300px;
+        margin: 50px auto;
+        border-radius: 50%;
+    }
+}
+
 `;
 
 function AboutBlock() {
@@ -39,9 +60,8 @@ function AboutBlock() {
                 <div className="about-text">
                     <h3>About.</h3>
                     <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at erat nisl. Curabitur at nisl non nulla malesuada blandit. Fusce blandit ante nec leo facilisis, nec ultrices neque iaculis. In vestibulum eget tellus et pellentesque. Ut at luctus felis, vitae fermentum urna. Praesent ullamcorper luctus velit volutpat luctus. Fusce libero libero, vestibulum et est id, rhoncus iaculis elit.
-
-Vivamus fringilla a urna vel posuere. Sed efficitur id dolor eu vehicula. Sed ullamcorper augue velit, in volutpat lorem porttitor quis. Nam efficitur eros sit amet mauris molestie pretium ac a urna. Donec odio libero, iaculis ac suscipit at, molestie at metus. Phasellus vitae purus pharetra, iaculis mi sit amet, tincidunt massa. Proin sed enim in lorem ultrices commodo.                    </p>
+                        I originally moved from Minneapolis, MN to Las Vegas, NV to pursue circus performance full-time. Shortly afterwards, I decided to learn web development to build my performance portfolio and complete my online coaching platform. I quickly realized my passion for the field because I love to create. Whether it's a performance number for an NBA half-time show or a portfolio site, I love working hard and having an excellent product to show for it.
+                    </p>
                 </div>
             </div>
             <hr/>
