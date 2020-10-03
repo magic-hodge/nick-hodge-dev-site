@@ -38,6 +38,14 @@
   margin: 50px auto;
 }
 
+.about-main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f9f7f7;
+  color: #112d4e;
+}
+
 /* color codes...
 
   #f9f7f7

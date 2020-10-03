@@ -27,7 +27,7 @@ const Main = styled.div`
 
     img {
         height: 250px;
-        width: 250;
+        width: 250px;
         margin: 0 auto;
         border-radius: 50%;
     }

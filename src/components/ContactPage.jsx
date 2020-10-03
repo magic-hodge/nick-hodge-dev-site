@@ -8,7 +8,7 @@ import Footer from './Footer';
 function ContactPage() {
   return (
     <div className="Contact-Page">
-      <h1>Display Contact Info Here.</h1>
+      <GetInTouch/>
     </div>
   );
 }

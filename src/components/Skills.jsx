@@ -30,8 +30,8 @@ const SkillBox = styled.div`
     }
 
     .img-icon {
-        height: 150px;
-        width: 150px;
+        height: 200px;
+        width: 200px;
         border-radius: 50%;
         margin: 0 auto;
         margin-top: 50px;
