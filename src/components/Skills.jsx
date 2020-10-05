@@ -12,7 +12,6 @@ const SkillBox = styled.div`
     hr {
         border: dotted 6px;
         border-bottom: none;
-        width: 5%;
         margin: 50px auto;
     }
 

@@ -16,7 +16,7 @@ export const MenuItems = [
     },
     {
         title: 'Contact Me',
-        url: '/contact',
+        url: 'mailto:nick.m.hodge@gmail.com',
         cName: 'nav-links'
     },
     
