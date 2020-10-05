@@ -4,7 +4,7 @@ export const Projects = [
         techStack: 'MongoDB • Express.js • React.js • Node.js',
         description: `A mobile-first Domino's app that dynamically lists apartment maps & gate codes and allows users to submit new locations to the database.`,
         host: 'Heroku',
-        imageURL: '../images/DominosApp.PNG',
+        imageURL: 'DominosApp.PNG',
         hostURL: 'https://dominos-app-summerlin.herokuapp.com/'
     },
     {
@@ -12,7 +12,7 @@ export const Projects = [
         techStack: 'Vue.js',
         description: `A mobile-friendly music-player app built using Vue.`,
         host: 'Github',
-        imageURL: '../images/hotBeatz.PNG',
+        imageURL: 'hotBeatz.PNG',
         hostURL: 'https://magic-hodge.github.io/hot_beatz/'
     },
     {
@@ -20,7 +20,7 @@ export const Projects = [
         techStack: 'JavaScript • Express.js • Node.js',
         description: `A weather journal app utilizing the Open Weather API and JavaScript to route JSON data and dynamically update the UI based on user input.`,
         host: 'Glitch',
-        imageURL: '../images/weatherJournalApp2.PNG',
+        imageURL: 'weatherJournalApp2.PNG',
         hostURL: 'https://weather-journal-01.glitch.me/'
     },
     {
@@ -28,7 +28,7 @@ export const Projects = [
         techStack: 'HTML • CSS • JavaScript',
         description: `A landing page project featuring a dynamically updating navigation menu based on content added to the page - with styling added for states that are active and in view.`,
         host: 'Github',
-        imageURL: '../images/dynamicLandingPage.PNG',
+        imageURL: 'dynamicLandingPage.PNG',
         hostURL: 'https://magic-hodge.github.io/Udacity_Landing_Page/'
     },
     {
@@ -36,7 +36,7 @@ export const Projects = [
         techStack: 'HTML • CSS',
         description: `HTML & CSS project using Flexbox & Grid to create a responsive and mobile-friendly blog website.`,
         host: 'Github',
-        imageURL: '../images/NHCBlog.PNG',
+        imageURL: 'NHCBlog.PNG',
         hostURL: 'https://magic-hodge.github.io/NHC_Blog/'
     },
     {
@@ -44,7 +44,7 @@ export const Projects = [
         techStack: 'HTML • CSS • JavaScript',
         description: `A simple, user-friendly pixel-art maker utilizing JavaScript for-loops to create the grid-size.`,
         host: 'Github',
-        imageURL: '../images/pixelArtMaker.PNG',
+        imageURL: 'pixelArtMaker.PNG',
         hostURL: 'https://magic-hodge.github.io/PixelArt/'
     },
     {
@@ -52,7 +52,7 @@ export const Projects = [
         techStack: 'Python',
         description: `A text-based adventure game developed in Python including randomness, loops to check for valid input, and alternate endings depending on the player's choices.`,
         host: 'Github',
-        imageURL: '../images/adventureGame.PNG',
+        imageURL: 'adventureGame.PNG',
         hostURL: 'https://magic-hodge.github.io/Adventure_Game/'
     }
 ]

@@ -6,7 +6,7 @@ import Zoom from '@material-ui/core/Zoom';
 function Project(props) {
     return (
         <div classNamee="project">
-            <img src={require(`${props.imageURL}`)} alt={props.imageURL}/>
+            <img src={props.imageURL} alt={props.imageURL}/>
             <h3>{props.title}</h3>
             <h4>{props.techStack}</h4>
             <p>{props.description}</p>
