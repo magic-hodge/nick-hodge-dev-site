@@ -199,7 +199,10 @@ function Skills() {
                     Design & Development.
                 </h4>
                 <p>
-                    I started learning web development to build an online coaching website. I quickly fell in love with the depth of the field and gained expereience designing responsive, front-end web applications. I offer skills in the following areas: HTML5, CSS3/SASS, Javascript/ES6, React.js, Node.js, NPM, REST APIs, Git, SQL, MongoDB, and more!
+                    Whether it's a portfolio website or a single-page web-application, I can help. If we need
+                    back-end and database functionality, we've got taht covered as well. Even if it's customizing
+                    a template on Squarespace or WordPress, I'm happy to work with you! Some of my skills include the following:
+                    HTML, CSS, JavaScript, Bootstrap, Github, Node, React, NPM, Python, SQL, MongoDB, Webpack, etc. - and I'm always learning more.
                 </p>
             </div>
             <img
@@ -213,8 +216,8 @@ function Skills() {
                     Cyr Wheel.
                 </h4>
                 <p>
-                    But my best skill is actually performing Cyr Wheel. I spin, flip, & twist in a 6-foot-tall,
-                    steel ring. I've even been recognized by Cirque du Soleil. Check out my Instagram to see more!
+                    But my best skill is actually performing Cyr Wheel. I travel around the world to spin, flip, & twist in a 6-foot-tall,
+                    steel ring. I've performed for corporate events, the NBA, art museums, state fairs, and I've even been recognized by Cirque du Soleil!
                 </p>
             </div>
             <hr/>

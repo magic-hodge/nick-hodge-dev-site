@@ -28,7 +28,7 @@ function Intro() {
         <Introduction className="home-main">
             <h3>Hello!</h3>
             <p>
-                I'm a Web Developer based in Las Vegas, NV with a passion for front-end design. I love to create, learn, and improve. I'm also a world-class circus performer!
+                I'm a Web Developer based in Las Vegas, NV and I love to create. Utilizing these skills has helped me grow as an indiviual, improved my web-presence as a performer, and saved me countless hours. I'd like to help you too!
             </p>
             <hr/>
         </Introduction>
