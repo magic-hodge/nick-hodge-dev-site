@@ -81,7 +81,6 @@ const Nav = styled.nav`
         .nav-menu {
             display: flex;
             flex-direction: column;
-            height: 500px;
             position: absolute;
             top: 80px;
             left: -100%;
@@ -149,7 +148,8 @@ function Navbar() {
            <div className="menu-icon" onClick={switchToggle}>
                <i className={isToggled ? "fas fa-times" : "fas fa-bars"}></i>
            </div>
-           <ul className={isToggled ? 'nav-menu active' : 'nav-menu'}>
+           <ul className={isToggled ? 'nav-menu active' : 'nav-menu'}
+           onClick={switchToggle}>
                {MenuItems.map((item, index) => {
                     return(
                         <li key={index}>

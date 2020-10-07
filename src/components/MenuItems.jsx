@@ -13,11 +13,5 @@ export const MenuItems = [
         title: 'Projects',
         url: '/projects',
         cName: 'nav-links'
-    },
-    {
-        title: 'Contact Me',
-        url: 'mailto:nick.m.hodge@gmail.com',
-        cName: 'nav-links'
-    },
-    
+    }
 ]

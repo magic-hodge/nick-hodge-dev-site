@@ -8,7 +8,7 @@ const Main = styled.div`
     justify-content: center;
     background-color: #dbe2ef;
     color: #112d4e;
-    background-image: url("https://www.transparenttextures.com/patterns/60-lines.png");
+    background-image: url("https://www.transparenttextures.com/patterns/brushed-alum-dark.png");
     height: 500px;
 
     h1 {
