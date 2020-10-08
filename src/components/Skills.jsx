@@ -216,7 +216,7 @@ function Skills() {
                     Cyr Wheel.
                 </h4>
                 <p>
-                    But my best skill is actually performing Cyr Wheel. I travel around the world to spin, flip, & twist in a 6-foot-tall,
+                    But my best skill is performing Cyr Wheel. I travel around the world to spin, flip, & twist in a 6-foot-tall,
                     steel ring. I've performed for corporate events, the NBA, art museums, state fairs, and I've even been recognized by Cirque du Soleil!
                 </p>
             </div>
