@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.js": "/nick-hodge-dev-site/static/js/main.6aba384d.chunk.js",
+    "main.js.map": "/nick-hodge-dev-site/static/js/main.6aba384d.chunk.js.map",
+    "runtime-main.js": "/nick-hodge-dev-site/static/js/runtime-main.18b24821.js",
+    "runtime-main.js.map": "/nick-hodge-dev-site/static/js/runtime-main.18b24821.js.map",
+    "static/js/2.7b932056.chunk.js": "/nick-hodge-dev-site/static/js/2.7b932056.chunk.js",
+    "static/js/2.7b932056.chunk.js.map": "/nick-hodge-dev-site/static/js/2.7b932056.chunk.js.map",
+    "index.html": "/nick-hodge-dev-site/index.html",
+    "precache-manifest.e0f2bb8bcbed8a963fdf8a4a44dd4d20.js": "/nick-hodge-dev-site/precache-manifest.e0f2bb8bcbed8a963fdf8a4a44dd4d20.js",
+    "service-worker.js": "/nick-hodge-dev-site/service-worker.js",
+    "static/js/2.7b932056.chunk.js.LICENSE.txt": "/nick-hodge-dev-site/static/js/2.7b932056.chunk.js.LICENSE.txt",
+    "static/media/DN CTC Head Support[8905].jpg": "/nick-hodge-dev-site/static/media/DN CTC Head Support[8905].f063e89f.jpg",
+    "static/media/DominosApp.PNG": "/nick-hodge-dev-site/static/media/DominosApp.09b8f423.PNG",
+    "static/media/Las-Vegas-Skyline-at-Sunset-1088x400.png": "/nick-hodge-dev-site/static/media/Las-Vegas-Skyline-at-Sunset-1088x400.ea87414c.png",
+    "static/media/NHCBlog.PNG": "/nick-hodge-dev-site/static/media/NHCBlog.0c374f50.PNG",
+    "static/media/adventureGame.PNG": "/nick-hodge-dev-site/static/media/adventureGame.19676831.PNG",
+    "static/media/cyr_headSupport.jpg": "/nick-hodge-dev-site/static/media/cyr_headSupport.20f4699a.jpg",
+    "static/media/cyr_headSupport2.jpg": "/nick-hodge-dev-site/static/media/cyr_headSupport2.91321a3b.jpg",
+    "static/media/development_design.PNG": "/nick-hodge-dev-site/static/media/development_design.eb9f3795.PNG",
+    "static/media/development_design_cropped.png": "/nick-hodge-dev-site/static/media/development_design_cropped.5742fbb7.png",
+    "static/media/dynamicLandingPage.PNG": "/nick-hodge-dev-site/static/media/dynamicLandingPage.16fac26f.PNG",
+    "static/media/favicon.ico": "/nick-hodge-dev-site/static/media/favicon.db0e94a9.ico",
+    "static/media/headshot1.jpg": "/nick-hodge-dev-site/static/media/headshot1.67166899.jpg",
+    "static/media/headshot_cropped.jpg": "/nick-hodge-dev-site/static/media/headshot_cropped.3632a140.jpg",
+    "static/media/hotBeatz.PNG": "/nick-hodge-dev-site/static/media/hotBeatz.2636783a.PNG",
+    "static/media/pixelArtMaker.PNG": "/nick-hodge-dev-site/static/media/pixelArtMaker.d93358c6.PNG",
+    "static/media/thinker.jpg": "/nick-hodge-dev-site/static/media/thinker.c64ffaa8.jpg",
+    "static/media/thinker_cropped1.jpg": "/nick-hodge-dev-site/static/media/thinker_cropped1.16fd373e.jpg",
+    "static/media/thinker_cropped2.jpg": "/nick-hodge-dev-site/static/media/thinker_cropped2.fee95ab5.jpg",
+    "static/media/weatherJournalApp2.PNG": "/nick-hodge-dev-site/static/media/weatherJournalApp2.01b8776a.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.18b24821.js",
+    "static/js/2.7b932056.chunk.js",
+    "static/js/main.6aba384d.chunk.js"
+  ]
+}

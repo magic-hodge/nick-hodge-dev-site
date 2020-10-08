@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.home-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f9f7f7;
+  color: #112d4e;
+}
+
+.home-main h3 {
+    margin: 20px auto;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+}
+
+.home-main h4 {
+    margin: 20px auto;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.35rem;
+}
+
+.home-main p {
+  margin: 0 auto;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.25rem;
+  padding-bottom: 15px;
+  line-height: 1.6;
+}
+
+.home-main hr {
+  border: dotted 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 50px auto;
+}
+
+.about-main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f9f7f7;
+  color: #112d4e;
+}
+
+/* color codes...
+
+  #f9f7f7
+  #dbe2ef
+  #3f72af
+  #112d4e 
+*/
+
+/* Fonts. . .
+
+	font-family: 'Patua One', cursive; 
+	font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Roboto Slab', serif;
+*/
+
