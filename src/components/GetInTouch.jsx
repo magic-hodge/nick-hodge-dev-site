@@ -58,11 +58,11 @@ hr {
 
     @media screen and (max-width:1024px) {
         h4 {
-            width: 65%;
+            width: 75%;
         }
         
         p {
-            width: 65%;
+            width: 75%;
         }
 
         hr {

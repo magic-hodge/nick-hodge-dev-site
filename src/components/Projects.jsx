@@ -8,7 +8,7 @@ export const Projects = [
         hostURL: 'https://dominos-app-summerlin.herokuapp.com/'
     },
     {
-        title: `Hot Beatz! Music Player App`,
+        title: `Hot Beatz! Music Player`,
         techStack: 'Vue.js',
         description: `A mobile-friendly music-player app built using Vue. User has options to play, pause, play next, and play previous songs via a simple UI.`,
         host: 'Github',
@@ -16,7 +16,7 @@ export const Projects = [
         hostURL: 'https://magic-hodge.github.io/hot_beatz/'
     },
     {
-        title: `Open Weather API Journal App`,
+        title: `Open Weather Journal App`,
         techStack: 'JavaScript • Express.js • Node.js',
         description: `A weather journal app utilizing the Open Weather API and JavaScript to route JSON data and dynamically update the UI based on user input.`,
         host: 'Glitch',

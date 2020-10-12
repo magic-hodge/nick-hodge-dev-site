@@ -79,10 +79,10 @@ const Proj = styled.div`
     @media screen and (max-width:768px) {
         
         h4 {
+            width: 80%;
         }
 
         p {
-            width: 80%;
         }
 
         hr {
@@ -96,11 +96,14 @@ const Proj = styled.div`
 
     @media screen and (max-width:1024px) {
         
+        h3 {
+        }
+
         h4 {
         }
 
         p {
-            width: 65%;
+            width: 80%;
         }
 
         hr {

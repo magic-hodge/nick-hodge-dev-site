@@ -61,11 +61,13 @@ const SkillBox = styled.div`
     .tech-icons {
         margin: 0px auto;
         padding: 0px;
+        width: 50%;
     }
 
     .fab, .fas {
         width: 75px;
         font-size: 50px;
+        padding: 10px;
         transition: 0.3s ease;
     }
 
