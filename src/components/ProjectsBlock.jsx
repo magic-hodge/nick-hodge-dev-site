@@ -4,7 +4,6 @@ import {Projects} from './Projects';
 import Project from './Project';
 
 const ProjectsArea = styled.div`
-    
 
     .projects-area {
         

@@ -191,8 +191,30 @@ const SkillBox = styled.div`
             display: block;
             width: 75%;
         }
+    }
 
-        
+    @media screen and (max-width:1024px) {
+        hr {
+            width: 10%;
+            margin: 25px auto;
+        }
+
+        .skill-box {
+            width: 65%;
+            margin: 0 auto;
+        }
+
+        .fab, .fas {
+            width: 75px;
+            font-size: 50px;
+            padding: 10px;
+            transition: 0.3s ease;
+        }
+
+        .tech-icons {
+            display: block;
+            width: 65%;
+        }
     }
 `;
 

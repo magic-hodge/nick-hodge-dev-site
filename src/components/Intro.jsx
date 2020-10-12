@@ -52,6 +52,17 @@ const Introduction = styled.div`
             margin: 25px auto;
         }
     }
+
+    @media screen and (max-width:1024px) {
+        p {
+            width: 65%;
+        }
+
+        hr {
+            width: 10%;
+            margin: 25px auto;
+        }
+    }
 `;
 
 function Intro() {

@@ -95,6 +95,28 @@ img {
     }
 }
 
+@media screen and (max-width:1024px) {
+    .about-box {
+        flex-direction: column;
+    }
+
+    h3, p {
+        width: 75%;
+    }
+
+    hr {
+        width: 10%;
+        margin: 25px auto;
+    }
+
+    img {
+        height: 300px;
+        width: 300px;
+        margin: 50px auto;
+        border-radius: 50%;
+    }
+}
+
 `;
 
 function AboutBlock() {

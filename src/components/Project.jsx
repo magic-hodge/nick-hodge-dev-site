@@ -79,7 +79,6 @@ const Proj = styled.div`
     @media screen and (max-width:768px) {
         
         h4 {
-            width: 80%;
         }
 
         p {
@@ -91,7 +90,24 @@ const Proj = styled.div`
         }
 
         .project-title {
-            width: 80%;
+        }
+
+    }
+
+    @media screen and (max-width:1024px) {
+        
+        h4 {
+        }
+
+        p {
+            width: 65%;
+        }
+
+        hr {
+            width: 10%;
+        }
+
+        .project-title {
         }
 
     }
