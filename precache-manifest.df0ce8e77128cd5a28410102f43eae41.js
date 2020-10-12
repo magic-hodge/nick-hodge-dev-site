@@ -1,7 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4c66496be8c9905338e5af104e5129ea",
+    "revision": "23f40ad517f12e9a5a40a3ccb2edcff6",
     "url": "/nick-hodge-dev-site/index.html"
+  },
+  {
+    "revision": "3986dd0f5dbd2e8a0822",
+    "url": "/nick-hodge-dev-site/static/css/main.09ac93a4.chunk.css"
   },
   {
     "revision": "06ec9360f10cf0a22903",
@@ -12,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nick-hodge-dev-site/static/js/2.45c04def.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "85c04cee47779fba3ab8",
-    "url": "/nick-hodge-dev-site/static/js/main.8d45850c.chunk.js"
+    "revision": "3986dd0f5dbd2e8a0822",
+    "url": "/nick-hodge-dev-site/static/js/main.3edb3804.chunk.js"
   },
   {
     "revision": "a6e447e2290adac35566",

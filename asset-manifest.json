@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.js": "/nick-hodge-dev-site/static/js/main.8d45850c.chunk.js",
-    "main.js.map": "/nick-hodge-dev-site/static/js/main.8d45850c.chunk.js.map",
+    "main.css": "/nick-hodge-dev-site/static/css/main.09ac93a4.chunk.css",
+    "main.js": "/nick-hodge-dev-site/static/js/main.3edb3804.chunk.js",
+    "main.js.map": "/nick-hodge-dev-site/static/js/main.3edb3804.chunk.js.map",
     "runtime-main.js": "/nick-hodge-dev-site/static/js/runtime-main.18b24821.js",
     "runtime-main.js.map": "/nick-hodge-dev-site/static/js/runtime-main.18b24821.js.map",
     "static/js/2.45c04def.chunk.js": "/nick-hodge-dev-site/static/js/2.45c04def.chunk.js",
     "static/js/2.45c04def.chunk.js.map": "/nick-hodge-dev-site/static/js/2.45c04def.chunk.js.map",
     "index.html": "/nick-hodge-dev-site/index.html",
-    "precache-manifest.d60c4509dd9aa3a4913e45205f9d89c2.js": "/nick-hodge-dev-site/precache-manifest.d60c4509dd9aa3a4913e45205f9d89c2.js",
+    "precache-manifest.df0ce8e77128cd5a28410102f43eae41.js": "/nick-hodge-dev-site/precache-manifest.df0ce8e77128cd5a28410102f43eae41.js",
     "service-worker.js": "/nick-hodge-dev-site/service-worker.js",
+    "static/css/main.09ac93a4.chunk.css.map": "/nick-hodge-dev-site/static/css/main.09ac93a4.chunk.css.map",
     "static/js/2.45c04def.chunk.js.LICENSE.txt": "/nick-hodge-dev-site/static/js/2.45c04def.chunk.js.LICENSE.txt",
     "static/media/DN CTC Head Support[8905].jpg": "/nick-hodge-dev-site/static/media/DN CTC Head Support[8905].f063e89f.jpg",
     "static/media/DominosApp.PNG": "/nick-hodge-dev-site/static/media/DominosApp.09b8f423.PNG",
@@ -33,6 +35,7 @@
   "entrypoints": [
     "static/js/runtime-main.18b24821.js",
     "static/js/2.45c04def.chunk.js",
-    "static/js/main.8d45850c.chunk.js"
+    "static/css/main.09ac93a4.chunk.css",
+    "static/js/main.3edb3804.chunk.js"
   ]
 }
