@@ -10,7 +10,7 @@ export const Projects = [
     {
         title: `Hot Beatz! Music Player App`,
         techStack: 'Vue.js',
-        description: `A mobile-friendly music-player app built using Vue.`,
+        description: `A mobile-friendly music-player app built using Vue. User has options to play, pause, play next, and play previous songs via a simple UI.`,
         host: 'Github',
         imageURL: 'hotBeatz.PNG',
         hostURL: 'https://magic-hodge.github.io/hot_beatz/'

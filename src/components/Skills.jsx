@@ -3,15 +3,37 @@ import styled from 'styled-components';
 
 const SkillBox = styled.div`
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f9f7f7;
+    color: #112d4e;
+    padding-bottom: 25px;
+
+    h3 {
+        margin: 20px auto;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 2rem;
+    }
+
+    h4 {
+        margin: 20px auto;
+        font-family: 'Roboto Slab', serif;
+        font-size: 1.35rem;
+    }
+
     p {
         margin: 0 auto;
         font-family: 'Roboto Slab', serif;
         font-size: 1.25rem;
+        padding-bottom: 15px;
+        line-height: 1.6;
     }
 
     hr {
         border: dotted 6px;
         border-bottom: none;
+        width: 5%;
         margin: 50px auto;
     }
 
@@ -37,13 +59,13 @@ const SkillBox = styled.div`
     }
 
     .tech-icons {
-        margin: 0 auto;
+        margin: 0px auto;
+        padding: 0px;
     }
 
     .fab, .fas {
         width: 75px;
         font-size: 50px;
-        padding: 10px;
         transition: 0.3s ease;
     }
 
@@ -158,7 +180,7 @@ const SkillBox = styled.div`
             margin: 0 auto;
         }
 
-        .fab {
+        .fab, .fas {
             width: 75px;
             font-size: 50px;
             padding: 10px;

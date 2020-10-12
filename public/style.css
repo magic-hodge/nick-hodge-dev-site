@@ -1,9 +1,11 @@
-* {
+/* * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+
+/* 
 .home-main {
   display: flex;
   flex-direction: column;
@@ -39,14 +41,6 @@
   margin: 50px auto;
 }
 
-.about-main{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-color: #f9f7f7;
-  color: #112d4e;
-}
-
 /* color codes...
 
   #f9f7f7
@@ -61,4 +55,4 @@
 	font-family: 'Josefin Sans', sans-serif;
   font-family: 'Roboto Slab', serif;
 */
-
+ */

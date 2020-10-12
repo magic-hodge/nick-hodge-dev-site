@@ -5,6 +5,7 @@ import {HashRouter as Router, Switch, Route} from 'react-router-dom';
 import HomePage from './HomePage';
 import AboutPage from './AboutPage';
 import ProjectsPage from './ProjectsPage';
+import '../styletest.css';
 
 function App() {
   return (

@@ -5,6 +5,7 @@ import Toggle from './Toggle';
 import { Link } from 'react-router-dom';
 
 const Nav = styled.nav`
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,6 +63,7 @@ const Nav = styled.nav`
 
     .nav-links:hover {
         background-color: #3f72af;
+        ${'' /* color: #112d4e; */}
         border-radius: 5px;
     }
 

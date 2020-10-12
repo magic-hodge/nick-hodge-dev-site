@@ -3,6 +3,60 @@ import styled from 'styled-components';
 
 const About = styled.div`
 
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f9f7f7;
+  color: #112d4e;
+
+h3 {
+    width: 70%;
+    margin: 20px auto;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+}
+
+h4 {
+    margin: 20px auto;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.35rem;
+}
+
+p {
+  width: 70%;
+  margin: 0 auto;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.25rem;
+  padding-bottom: 15px;
+  line-height: 1.6;
+}
+
+hr {
+  border: dotted 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 50px auto;
+}
+
+/* color codes...
+
+  #f9f7f7
+  #dbe2ef
+  #3f72af
+  #112d4e 
+*/
+
+/* Fonts. . .
+
+	font-family: 'Patua One', cursive; 
+	font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Roboto Slab', serif;
+*/
+
+
 .about-box {
     display: flex;
     flex-direction: row;
@@ -10,16 +64,7 @@ const About = styled.div`
     margin: 0 auto;
 }
 
-h3, p {
-    width: 70%;
-}
 
-hr {
-    border: dotted 6px;
-    border-bottom: none;
-    width: 5%;
-    margin: 50px auto;
-}
 
 img {
     height: 400px;
@@ -54,7 +99,7 @@ img {
 
 function AboutBlock() {
     return (
-        <About className="home-main">
+        <About className="about-main">
             <div className="about-box"> 
                 <img src={require("../images/thinker_cropped1.jpg")} alt='headshot_cropped.jpg'/>
                 <div className="about-text">

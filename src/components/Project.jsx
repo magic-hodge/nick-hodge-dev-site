@@ -3,12 +3,37 @@ import styled from 'styled-components';
 import ProjectButton from './ProjectButton';
 
 const Proj = styled.div`
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 50%;
     margin: 0 auto;
-    margin-top: 20px;
+    padding-top: 20px;
+    background-color: #f9f7f7;
+    color: #112d4e;
+    padding-bottom: 25px;
+
+    h3 {
+        padding-top: 15px;
+        margin: 20px auto;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 2rem;
+    }
+
+    h4 {
+        margin: 20px auto;
+        font-family: 'Roboto Slab', serif;
+        font-size: 1.35rem;
+    }
+
+    p {
+        width: 50%;
+        margin: 0 auto;
+        font-family: 'Roboto Slab', serif;
+        font-size: 1.25rem;
+        padding-bottom: 15px;
+        line-height: 1.6;
+    }
 
     hr {
         border: dotted 6px;
@@ -25,7 +50,10 @@ const Proj = styled.div`
     }
 
     .project-button {
-        display: block;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 200px;
         margin: 20px auto;
         padding: 12px 17px;
         text-decoration: none;

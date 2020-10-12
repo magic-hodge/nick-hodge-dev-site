@@ -3,12 +3,43 @@ import styled from 'styled-components';
 
 const Introduction = styled.div`
 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f9f7f7;
+    color: #112d4e;
+    padding-bottom: 25px;
+
     h3 {
         padding-top: 15px;
+        margin: 20px auto;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 2rem;
+    }
+
+    h4 {
+        margin: 20px auto;
+        font-family: 'Roboto Slab', serif;
+        font-size: 1.35rem;
     }
 
     p {
         width: 50%;
+        margin: 0 auto;
+        font-family: 'Roboto Slab', serif;
+        font-size: 1.25rem;
+        padding-bottom: 15px;
+        line-height: 1.6;
+    }
+
+    hr {
+        border: dotted 6px;
+        border-bottom: none;
+        width: 5%;
+        margin: 50px auto;
     }
 
     @media screen and (max-width:768px) {

@@ -5,6 +5,7 @@ const MessageMe = styled.div`
     
     .message-button {
         display: block;
+        width: 195px;
         margin: 20px auto;
         padding: 5px 15px;
         text-decoration: none;
