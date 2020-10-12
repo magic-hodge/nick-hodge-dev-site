@@ -49,6 +49,10 @@ const Proj = styled.div`
     .tech-stack {
     }
 
+    .project-title {
+        margin: 0 auto;
+    }
+
     .project-button {
         display: flex;
         flex-direction: row;
@@ -73,11 +77,23 @@ const Proj = styled.div`
     }
 
     @media screen and (max-width:768px) {
-        width: 75%;
-    
+        
+        h4 {
+            width: 80%;
+        }
+
+        p {
+            width: 80%;
+        }
+
         hr {
             width: 10%;
         }
+
+        .project-title {
+            width: 80%;
+        }
+
     }
 `;
 
@@ -85,7 +101,7 @@ function Project(props) {
     return (
         <Proj classNamee="project">
             <img src={props.imageURL} alt={props.imageURL}/>
-            <h3>{props.title}</h3>
+            <h3 className="project-title">{props.title}</h3>
             <h4>{props.techStack}</h4>
             <p>{props.description}</p>
             <ProjectButton
