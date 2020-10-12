@@ -202,7 +202,7 @@ const SkillBox = styled.div`
         }
 
         .skill-box {
-            width: 65%;
+            width: 75%;
             margin: 0 auto;
         }
 
@@ -215,7 +215,7 @@ const SkillBox = styled.div`
 
         .tech-icons {
             display: block;
-            width: 65%;
+            width: 75%;
         }
     }
 `;

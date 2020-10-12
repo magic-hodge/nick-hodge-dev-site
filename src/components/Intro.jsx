@@ -55,7 +55,7 @@ const Introduction = styled.div`
 
     @media screen and (max-width:1024px) {
         p {
-            width: 65%;
+            width: 75%;
         }
 
         hr {
