@@ -118,6 +118,7 @@ const Nav = styled.nav`
         .navbar-logo {
             position: absolute;
             padding-top: 12.5px;
+            letter-spacing: 2px;
             top: 0;
             left: 0;
         }
