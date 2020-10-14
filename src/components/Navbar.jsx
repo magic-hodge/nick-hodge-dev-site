@@ -117,9 +117,9 @@ const Nav = styled.nav`
 
         .navbar-logo {
             position: absolute;
+            padding-top: 12.5px;
             top: 0;
             left: 0;
-            transform: translate(0%, 70%);
         }
 
         .menu-icon {
@@ -135,6 +135,35 @@ const Nav = styled.nav`
         .fa-times {
             color: #f9f7f7;
             font-size: 2rem;
+        }
+
+    }
+    @media screen and (max-width:1024px) {
+        
+        
+        .NavbarItems {
+            position: relative;
+        }
+
+        .nav-menu {
+            width: 70vw;
+            justify-content: end;
+            margin-right: 2rem;
+        }
+        
+        .nav-links {
+        }
+
+        .nav-links:hover {
+            background-color: #3f72af;
+            border-radius: 0;
+        }
+
+        .navbar-logo {
+            position: absolute;
+            padding-top: 12.5px;
+            top: 0;
+            left: 0;
         }
 
     }
