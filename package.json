@@ -1,7 +1,7 @@
 {
   "name": "nick-hodge-webdev-site",
   "version": "0.1.0",
-  "homepage": "https://magic-hodge.github.io/nick-hodge-dev-site",
+  "homepage": "https://www.nickhodge-dev.com",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.0",
