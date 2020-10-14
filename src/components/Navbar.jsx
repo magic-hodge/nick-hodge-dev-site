@@ -146,7 +146,7 @@ function Navbar() {
 
     return(
        <Nav className="NavbarItems">
-           <h1 className="navbar-logo"><Link className="logo-link" to="/">Nick Hodge</Link></h1>
+           <h1 className="navbar-logo"><Link className="navbar-logo logo-link" to="/">Nick Hodge</Link></h1>
            <div className="menu-icon" onClick={switchToggle}>
                <i className={isToggled ? "fas fa-times" : "fas fa-bars"}></i>
            </div>
