@@ -246,7 +246,7 @@ function Skills() {
                 </h4>
                 <p>
                     Whether it's a portfolio website or a single-page web-application, I can help. If we need
-                    back-end and database functionality, we've got taht covered as well. Even if it's customizing
+                    back-end and database functionality, we've got that covered as well. Even if it's customizing
                     a template on Squarespace or WordPress, I'm happy to work with you! Some of my skills include the following:
                     HTML, CSS, JavaScript, Bootstrap, Github, Node, React, NPM, Python, SQL, MongoDB, Webpack, etc. - and I'm always learning more.
                 </p>
